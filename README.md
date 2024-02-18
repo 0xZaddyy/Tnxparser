@@ -13,7 +13,7 @@ Installation
 Clone the repository to your local machine:
 
 
-git clone
+git clone https://github.com/0xZaddyy/Tnxparser/tree/main
 
 Navigate to the project directory:
 
@@ -21,7 +21,6 @@ Navigate to the project directory:
 cd transaction-parser
 
 Usage
-
 
 
 node txnparser.js
