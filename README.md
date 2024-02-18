@@ -25,6 +25,6 @@ Usage
 
 node txnparser.js
 
-The selected transaction IDs with maximum fees will be printed to the console.
+Details of the transaction Hex will be printed on the console.
 
 
