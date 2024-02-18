@@ -1,5 +1,5 @@
 Transaction Parser
-This is a JavaScript program for parsing transaction data from a CSV file, calculating maximum fee transactions, and outputting selected transaction IDs.
+This is a JavaScript program for parsing transaction data of a transaction Hex, which prints out the details of a Hex on the console
 
 Prerequisites
 Before running the program, ensure you have the following installed:
