@@ -18,7 +18,7 @@ git clone https://github.com/0xZaddyy/Tnxparser/tree/main
 Navigate to the project directory:
 
 
-cd transaction-parser
+cd Tnxparser
 
 Usage
 
