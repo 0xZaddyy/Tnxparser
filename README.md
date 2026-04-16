@@ -27,4 +27,5 @@ node txnparser.js
 
 Details of the transaction Hex will be printed on the console.
 
+give us a github star on the repo 
 
