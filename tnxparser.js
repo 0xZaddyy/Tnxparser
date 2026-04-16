@@ -1,4 +1,4 @@
-// build a transaction parser to identify the transaction type, extracting the version, inputs, outputs and the locktime.
+// build a transaction parser to identify the transaction type, exxtracting the version, inputs, outputs and the locktime.....
 function getDetails(hex) {
   // "0ccc140e766b5dbc884ea2d780c5e91e4eb77597ae64288a42575228b79e2349";
     const version = hex.slice(2, 8).concat(hex.slice(0, 2));
@@ -8,7 +8,7 @@ function getDetails(hex) {
     for (let i = 32; i >= 1; i--) {
       newTxid = newTxid.concat(rawTxid.slice(i * 2 - 2, i * 2));
     }
-   
+
     const vout = hex.slice(80, 86).concat(hex.slice(78, 80));
     const locktime = hex.slice(-8);
     const scriptSigSize = hex.slice(86, 88);
@@ -19,7 +19,7 @@ function getDetails(hex) {
     const result = {
       version,
       inputCount,
-      inputs: [ 
+      inputs: [
          {
         transcationId: newTxid,
         vout,
@@ -32,7 +32,7 @@ function getDetails(hex) {
     };
     console.log(result);
   }
-  
+
 
 
   getDetails(
