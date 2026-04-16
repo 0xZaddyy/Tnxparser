@@ -20,7 +20,7 @@ Navigate to the project directory:
 
 cd Tnxparser
 
-Usage
+Usage details are below
 
 
 node txnparser.js
